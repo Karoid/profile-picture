@@ -9,21 +9,21 @@
   position: relative;
   padding-left: 22px;
   padding-right: 22px;
-/**
-    * Zoom
-    */
-/**
-    * Zoom handler
-    */
-/**
-    * FOCUS
-    */
-/**
-    * Zoom track
-    */
-/**
-    * ICONS
-    */
+  /**
+      * Zoom
+      */
+  /**
+      * Zoom handler
+      */
+  /**
+      * FOCUS
+      */
+  /**
+      * Zoom track
+      */
+  /**
+      * ICONS
+      */
 }
 .photo__zoom input[type=range] {
   -webkit-appearance: none;
@@ -129,7 +129,7 @@
   position: absolute;
   content: "\f03e";
   display: block;
-  font-family: 'FontAwesome';
+  font-family: 'Font Awesome 6 Free';
   color: #aaa;
   transition: color 0.3s ease;
 }
@@ -146,8 +146,10 @@
 /**
 * FRAME STYLE
 */
-.photo__frame--circle {
+.photo__frame {
   border: 1px solid #e2e2e2;
+}
+.photo__frame--circle {
   border-radius: 50%;
 }
 .photo__helper {
@@ -357,4 +359,10 @@
 .profile.is-dragover .message.is-wrong-file-type,
 .profile.is-dragover .message.is-wrong-image-size {
   display: none;
+}
+#uploadBtn{
+  padding: 7px 30px;
+  color: white;
+  background: mediumslateblue;
+  border-radius: 5px;
 }
