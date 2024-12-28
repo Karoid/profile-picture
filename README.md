@@ -1,6 +1,6 @@
 # Profile picture
 
-[Codepen](http://codepen.io/dsalvagni/pen/BLapab)
+[Codepen](https://codepen.io/Karoid/pen/LEPjdRQ)
 
 ## Screenshots
 ![Screen 1](screen1.gif) ![Screen 2](screen2.gif)
