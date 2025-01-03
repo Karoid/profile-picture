@@ -117,7 +117,13 @@ var pp = profilePicture(cssSelector, imageUrl?, options?);
 ```
     pp.getAsDataURL(quality);
 ```
+### getAsBlob
+> Public method to return the blob image format.
+> @param quality 0.1-1. Default: 1
 
+```
+    pp.getAsBlob(quality);
+```
 ### removeImage
 > Public method to remove the image.
 
